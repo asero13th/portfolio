@@ -1,0 +1,15 @@
+.custom-image-css{
+    height: 400px;
+    width: 430px;
+    margin: 0 auto;
+}
+.custom-background-shape{
+    position: relative;
+    height: 100%;
+    left: -10px;
+}
+.custom-image-shape-container{
+    position: relative;
+    height: 100%;
+    bottom: -40px;  
+}
