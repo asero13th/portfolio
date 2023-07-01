@@ -18,26 +18,27 @@ const Navigation = () => {
   };
 
   return (
-    <aside className="w-[25%] bg-white fixed left-0 top-0 bottom-0  flex flex-col md:block">
-      <div className="flex flex-col justify-center items-center mb-8 md:mb-0">
-        <img
-          src={myPhoto}
-          alt="My Photo"
-          className="mt-5 rounded-full w-32 h-32 border border-gray-400 object-cover hidden md:block"
-        />
-        <div className="mt-4">
-          {/* Navigation items go here */}
-          <nav className="mt-8 flex flex-col md:block">
-            {/* Dropdown menu for small screens */}
-            <div className="md:hidden">
-              <button
+    <aside className="md:w-[25%] bg-white md:fixed md:left-0 top-0 bottom-0  flex flex-col md:block border border-gray-200">
+       <button
                 type="button"
-                className="flex items-center justify-between w-full px-4 py-2 text-gray-700 font-medium hover:text-gray-900"
+                className="md:hidden flex items-center justify-between w-full md:px-4 py-2 text-gray-700 font-medium hover:text-gray-900"
                 onClick={toggleDropdown}
               >
                 <span className="sr-only">Toggle navigation</span>
                 <FontAwesomeIcon icon={faBars} className="w-5 h-5 " />
               </button>
+      <div className="flex flex-col justify-center items-center md:mb-8 md:mb-0">
+        <img
+          src={myPhoto}
+          alt="My Photo"
+          className="mt-5 rounded-full w-32 h-32 border border-gray-400 object-cover hidden  md:block"
+        />
+        <div className="md:mt-4">
+          {/* Navigation items go here */}
+          <nav className="mt-8 flex flex-col md:block">
+            {/* Dropdown menu for small screens */}
+            <div className="md:hidden">
+             
               <div
                 className={`${
                   isDropdownOpen ? 'block' : 'hidden'

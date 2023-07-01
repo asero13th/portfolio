@@ -18,7 +18,7 @@ function Home() {
     }, []);
 
   return (
-    <aside id='home' className="ml-0 bg-custom-50 h-screen ml-40 top-0  border border-gray-200 shadow-lg overflow-x-hidden">
+    <aside id='home' className="ml-0 bg-custom-50  md:ml-40 top-0  border border-gray-200 shadow-lg overflow-x-hidden md:pb-40">
       <div className="mt-7">
         <div className="max-w-md mx-auto rounded-xl overflow-hidden md:max-w-2xl">
           <div className="md:flex">

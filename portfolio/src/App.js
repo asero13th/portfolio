@@ -5,17 +5,14 @@ import About from './components/About';
 function App() {
   return (
     <div>
-      <header className="bg-white shadow">
-          <Navigation />
-      </header>
-      <section className=" bg-white">
-        <Home />
-        <About />
-    
-       
-      
-      </section>
-    </div>
+  <header className="bg-white shadow">
+    <Navigation />
+  </header>
+  <section>
+    <Home />
+    <About />
+  </section>
+</div>
   );
 }
 
