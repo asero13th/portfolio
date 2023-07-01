@@ -57,10 +57,10 @@ const Navigation = () => {
                   About
                 </a>
                 <a
-                  href="#services"
+                  href="#skills"
                   className="block px-3 py-2 text-gray-700 font-medium hover:text-gray-900 flex justify-center items-center"
                 >
-                  Services
+                  Skills
                 </a>
                 <a
                   href="#portfolio"
@@ -103,10 +103,10 @@ const Navigation = () => {
               </li>
               <li className="mb-4">
                 <a
-                  href="#services"
+                  href="#skills"
                   className="text-gray-700 font-medium hover:text-gray-900 flex justify-center items-center"
                 >
-                  Services
+                  Skills
                 </a>
               </li>
               <li className="mb-4">

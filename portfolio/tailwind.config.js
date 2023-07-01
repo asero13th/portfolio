@@ -323,6 +323,9 @@ module.exports = {
         custom:{
           50: "#effaf9", 
         },
+        anotherCustom:{
+          50: "#f3f8fe",
+        },
         shadow: {
           500: "rgba(112, 144, 176, 0.08)",
         },

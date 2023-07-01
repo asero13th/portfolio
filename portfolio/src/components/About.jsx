@@ -3,7 +3,7 @@ import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
 
 const About = () => {
   return (
-    <aside id='about' className="ml:0 bg-white md:ml-40 lg:ml-40 md:top-0 border border-gray-200 overflow-x-hidden flex flex-col md:flex-row justify-content-between items-center ">
+    <aside id='about' className="ml-0 bg-white md:ml-40 lg:ml-40 md:top-0 border border-gray-200 overflow-x-hidden flex flex-col md:flex-row justify-content-between items-center ">
     <div className="mt-10 max-w-sm p-10 md:mx-40 rounded-xl overflow-hidden  flex flex-col items-center md:items-start">
       <div className='text-center md:text-left text-sm md:text-base'>
         <h2 className='mb-3 text-xl md:text-3xl text-gray-900 text-bold'>I'm <span className='text-indigo-500'>Aser Hailu</span>, a Web developer</h2>
@@ -17,7 +17,7 @@ const About = () => {
     <div className="mt-20 max-w-sm rounded-xl overflow-hidden md:max-w-l">
       <div className='text-center md:text-left text-sm '>
                 <ul>
-            <li><span className='text-gray-900'>Name</span>: Aser Hailu</li>
+            <li><span className='text-gray-900 text-bold text-lg'>Name</span>: Aser Hailu</li>
             <br />
             <hr />
             <li><span className='text-gray-900'>Age</span> : 21</li>

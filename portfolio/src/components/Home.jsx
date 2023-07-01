@@ -18,12 +18,12 @@ function Home() {
     }, []);
 
   return (
-    <aside id='home' className="ml-0 bg-custom-50  md:ml-40 top-0  border border-gray-200 shadow-lg overflow-x-hidden md:pb-40">
+    <aside id='home' className="ml-0 bg-custom-50  md:ml-40 top-0  border border-gray-200 shadow-lg overflow-x-hidden md:pb-40 items-center md:items-start">
       <div className="mt-7">
         <div className="max-w-md mx-auto rounded-xl overflow-hidden md:max-w-2xl">
           <div className="md:flex">
             <div className="custom-image-shape-container mt-5">
-                <div className="rounded-full bg-gray-400  custom-background-shape">
+                <div className="rounded-full bg-blue-100  custom-background-shape">
                     <img className=" object-cover md:h-full md:w-48 z-10 custom-image-css" src={aserPhoto} alt="Aser Hailu" />
                 </div>
              
