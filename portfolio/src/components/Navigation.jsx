@@ -136,7 +136,7 @@ const Navigation = () => {
               {/* Social media icons for medium and larger screens */}
               <li className="flex mt-4">
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/asero13th"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 hover:text-gray-900 mr-4"
@@ -144,7 +144,7 @@ const Navigation = () => {
                   <FontAwesomeIcon icon={faGithub} className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/your-username/"
+                  href="https://www.linkedin.com/in/aser-hailu-7b5238240/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 hover:text-gray-900 mr-4"
@@ -152,7 +152,7 @@ const Navigation = () => {
                   <FontAwesomeIcon icon={faLinkedin} className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://twitter.com/your-username"
+                  href="https://twitter.com/Aser09433103"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 hover:text-gray-900 mr-4"
@@ -160,7 +160,7 @@ const Navigation = () => {
                   <FontAwesomeIcon icon={faTwitter} className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://www.instagram.com/your-username/"
+                  href="https://www.instagram.com/aser_hailu_/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 hover:text-gray-900 mr-4"
