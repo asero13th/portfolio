@@ -23,7 +23,7 @@ const myprojects = [
 ]
 const Portfolio = () => {
   return (
-    <aside id='contact' className=" ml:0 bg-white md:ml-40 lg:ml-40 md:top-0   overflow-x-hidden flex flex-col  justify-content-between items-center mx:auto p-10">
+    <aside id='portfolio' className=" ml:0 bg-white md:ml-40 lg:ml-40 md:top-0   overflow-x-hidden flex flex-col  justify-content-between items-center mx:auto p-10">
     <div className="mt-10 max-w-sm p-10 md:mx-auto rounded-xl overflow-hidden  flex flex-col items-center md:items-start">
         <h2 className=' text-center text-5xl text-gray-900 font-bold'>My Projects</h2>    
     </div>
